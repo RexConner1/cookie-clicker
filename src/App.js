@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+
 import './App.css';
+import TopBar from './components/TopBar/TopBar'
 
 class App extends Component {
   constructor() {
@@ -13,14 +15,11 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          
+          <TopBar />
         </header>
         <main>
 
         </main>
-        <footer>
-
-        </footer>
       </div>
     );
   }
