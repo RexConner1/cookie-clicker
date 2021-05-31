@@ -62,10 +62,10 @@ class TopBar extends Component {
                 <div id="links" class="hoverer">
                     Other versions
                     <div class="hoverable">
-                    <a href="../" target="_blank" id="linkVersionLive">Live version</a>
-                    <a href="beta" target="_blank" id="linkVersionBeta">Try the beta!</a>
-                    <a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
-                    <a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
+                        <a href="../" target="_blank" rel="noreferrer" id="linkVersionLive">Live version</a>
+                        <a href="beta" target="_blank" rel="noreferrer" id="linkVersionBeta">Try the beta!</a>
+                        <a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" rel="noreferrer" id="linkVersionOld">v. 1.0466</a>
+                        <a href="//orteil.dashnet.org/experiments/cookie/" target="_blank" rel="noreferrer">Classic</a>
                     </div>
                 </div>
             </div>
