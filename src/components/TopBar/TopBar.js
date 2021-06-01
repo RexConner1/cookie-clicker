@@ -27,28 +27,28 @@ class TopBar extends Component {
                     <a href="https://orteil42.tumblr.com" target="_blank" rel="noreferrer" id="topbarTumblr">tumblr</a>
                 </div>
 
-                <div style="position:relative;">
-                    <div style="width:22px;height:32px;background:url(img/discord.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div>
-                    <a href="https://discordapp.com/invite/cookie" target="_blank" rel="noreferrer" style="padding-left:16px;" id="topbarDiscord">Discord</a>
+                <div style={{position: 'relative'}}>
+                    <div style={{width:"22px", height:"32px", background:"url(/src/img/discord.png)", position:"absolute", left:"0px", top:"0px", pointerEvents:"none"}}></div>
+                    <a href="https://discordapp.com/invite/cookie" target="_blank" rel="noreferrer" style={{ paddingLeft:`16px` }} id="topbarDiscord">Discord</a>
                 </div>
 
-                <div style="position:relative;">
-                    <div style="width:25px;height:32px;background:url(img/weeHoodie.png);position:absolute;left:-2px;top:0px;pointer-events:none;"></div>
-                    <a class="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" rel="noreferrer" style="padding-left:12px;" id="topbarMerch">Merch!</a>
+                <div style={{position: 'relative'}}>
+                    <div style={{width:"25px", height:"32px", background:"url(/src/img/weeHoodie.png)", position:"absolute", left:"-2px", top:"0px", pointerEvents:"none"}}></div>
+                    <a className="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" rel="noreferrer" style={{paddingLeft:"12px"}} id="topbarMerch">Merch!</a>
                 </div>
 
-                <div style="position:relative;">
-                    <div style="width:22px;height:32px;background:url(img/patreon.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div>
-                    <a class="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" style="padding-left:16px;" id="topbarPatreon">Patreon</a>
+                <div style={{position: 'relative'}}>
+                    <div style={{width:"22px", height:"32px", background:"url(/src/img/patreon.png)", position:"absolute", left:"0px", top:"0px", pointerEvents:"none"}}></div>
+                    <a className="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" rel="noreferrer" style={{paddingLeft:"16px"}} id="topbarPatreon">Patreon</a>
                 </div>
 
-                <div style="position:relative;display:none;font-weight:bold;" id="heralds">
-                    <div style="position:absolute;top:-4px;width:31px;height:39px;background:url(img/heraldFlag.png);left:50%;margin-left:-15px;pointer-events:none;"></div>
-                    <div id="heraldsAmount" style="position:relative;z-index:10;text-shadow:0px 1px 0px #000,0px 0px 6px #ff00e4;color:#fff;">-</div>
+                <div style={{position: 'relative', display:'none', fontWeight:'bold'}} id="heralds">
+                    <div style={{width:"31px", height:"39px", background:"url(/src/img/heraldFlag.png)", position:"absolute", left:"50%", top:"-4px", pointerEvents:"none", marginLeft:"-15px"}}></div>
+                    <div id="heraldsAmount" style={{position:"relative", zIndex:"10", textShadow:"0px 1px 0px #000,0px 0px 6px #ff00e4", color:"#fff"}}>-</div>
                 </div>
 
                 <div>
-                    <a class="lightblueLink" style="font-weight:bold;" href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a>
+                    <a className="lightblueLink" style={{fontWeight:"bold"}} href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" rel="noreferrer" id="topbarMobileCC">Cookie Clicker for Android</a>
                 </div>
 
                 <div>
@@ -59,9 +59,9 @@ class TopBar extends Component {
                     <a href="//orteil.dashnet.org/igm/" target="_blank" rel="noreferrer" id="topbarIGM">Idle Game Maker</a>
                 </div>
 
-                <div id="links" class="hoverer">
+                <div id="links" className="hoverer">
                     Other versions
-                    <div class="hoverable">
+                    <div className="hoverable">
                         <a href="../" target="_blank" rel="noreferrer" id="linkVersionLive">Live version</a>
                         <a href="beta" target="_blank" rel="noreferrer" id="linkVersionBeta">Try the beta!</a>
                         <a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" rel="noreferrer" id="linkVersionOld">v. 1.0466</a>
