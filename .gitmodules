@@ -1,0 +1,3 @@
+[submodule "cookieclicker"]
+	path = cookieclicker
+	url = https://github.com/ozh/cookieclicker.git
